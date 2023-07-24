@@ -8,7 +8,7 @@ public class input_change : MonoBehaviour
    public  InputField hi;
     private float temp;
     public GameObject Bob;
-    private Vector3 cord=new Vector3(40f,40f,40f);
+    private Vector3 cord=new Vector3(40f,40f,1f);
     private Vector3 cord1;
     private Vector3 cord2=new Vector3(0,0,0);
     private Vector3 cord3;
