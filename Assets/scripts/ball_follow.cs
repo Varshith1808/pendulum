@@ -14,9 +14,10 @@ public class ball_follow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        locationx = (string1.transform.localScale.z-57);
-        bobloc = bob.transform.position;
-        bobloc.y = locationx * -0.049f;
-        bob.transform.position = bobloc;    
+       // locationx = (string1.transform.localScale.z-57);
+        bobloc = string1.transform.position;
+      //  bobloc.y = locationx * -0.049f;
+       // bob.transform.position = bobloc;
+        bob.transform.position = bobloc;
     }
 }
